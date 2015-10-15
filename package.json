@@ -1,5 +1,5 @@
 {
-  "name": "atob-lite",
+  "name": "base64-lite",
   "version": "1.0.0",
   "description": "Smallest/simplest possible means of using atob with both Node and browserify",
   "main": "base64-node.js",
@@ -29,6 +29,7 @@
   },
   "keywords": [
     "atob",
+    "btoa",
     "base64",
     "isomorphic",
     "browser",
