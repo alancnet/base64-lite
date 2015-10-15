@@ -2,8 +2,8 @@
   "name": "atob-lite",
   "version": "1.0.0",
   "description": "Smallest/simplest possible means of using atob with both Node and browserify",
-  "main": "atob-node.js",
-  "browser": "atob-browser.js",
+  "main": "base64-node.js",
+  "browser": "base64-browser.js",
   "license": "MIT",
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
@@ -11,9 +11,9 @@
     "test-browser": "browserify test | smokestack | tap-spec"
   },
   "author": {
-    "name": "Hugh Kennedy",
-    "email": "hughskennedy@gmail.com",
-    "url": "http://hughsk.io/"
+    "name": "Alan Colon",
+    "email": "npm@alanc.net",
+    "url": "http://www.alanc.net/"
   },
   "dependencies": {},
   "devDependencies": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/atob-lite.git"
+    "url": "git://github.com/alancnet/base64-lite.git"
   },
   "keywords": [
     "atob",
@@ -35,8 +35,8 @@
     "node",
     "shared"
   ],
-  "homepage": "https://github.com/hughsk/atob-lite",
+  "homepage": "https://github.com/alancnet/base64-lite",
   "bugs": {
-    "url": "https://github.com/hughsk/atob-lite/issues"
+    "url": "https://github.com/alancnet/base64-lite/issues"
   }
 }
